@@ -18,6 +18,8 @@ class employee:
         salary=obj.salary
         if salary>0:
             print("the salary is greater than zero and the salary is:",salary)
+        else:
+            print("the salary is less than zero and the salary is:,salary)
 
 class developer(employee):
     def __init__(self,language):
